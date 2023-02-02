@@ -1,7 +1,7 @@
 # 3-DOF-Robot-Arm-
 Robot Arm Control System to Automate Medication Storage and Retrieval!
 
-I am designing a project of 3 DOF robot arm with  arduino, adafruit pwm servo drivers and 4 MG966r servo motoros i will make 6 shelfs in front of the arm  and put medicines inside each shelf i want to input a shelf by serial monitor and move my robot arm's end effector to chosen shelf. After I choose the shelf i want to pick it up and place it to some known position. I have already downloaded required libraries , build my robot arm and connected my servos to adafruit PWM servo driver.
+I am designing a project of 3 DOF robot arm with  arduino, adafruit pwm servo drivers and 4 MG966r servo motoros i will make 6 shelfs in front of the arm  and put medicines inside each shelf i want to input a shelf by serial monitor and move my robot arm's end effector to chosen shelf. After I choose the shelf i want to pick it up and place it to counter . I have already downloaded required libraries , build my robot arm and connected my servos to adafruit PWM servo driver.
 
 ![image](https://user-images.githubusercontent.com/74906633/216340708-62e8fdd7-924e-4be8-88bb-8b7cc910a274.png)
 
