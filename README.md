@@ -15,6 +15,21 @@ Once the system is set up, you can use the serial monitor to select a shelf and 
 # Circuit Diagram
 ![image](https://user-images.githubusercontent.com/74906633/216340708-62e8fdd7-924e-4be8-88bb-8b7cc910a274.png)
 
+Power on the system and ensure that the Arduino board is connected to the computer via USB.
+Open the Arduino IDE and navigate to the serial monitor.
+Enter a number (1-4) to select a shelf for the robot arm to move to. Press enter.
+Wait for the robot arm to move to the selected shelf.
+Once the robot arm is in position, it will automatically pick up the medicine from the shelf and place it to counter.
+To select a different shelf, repeat steps 3-5.
+
+# Usaer Manual
+Power on the system and ensure that the Arduino board is connected to the computer via USB.
+Open the Arduino IDE and navigate to the serial monitor.
+Enter a number (1-4) to select a shelf for the robot arm to move to. Press enter.
+Wait for the robot arm to move to the selected shelf.
+Once the robot arm is in position, it will automatically pick up the medicine from the shelf and place it in a known position.
+To select a different shelf, repeat steps 3-5.
+
 # Contributing
 If you'd like to contribute to this project, feel free to submit a pull request with your changes or open an issue if you encounter any problems.
 
