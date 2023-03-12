@@ -2,7 +2,7 @@
 
 This project is designed to automate medication storage and retrieval using a 3 DOF robot arm controlled by an Arduino and Adafruit PWM servo drivers. The system includes 4 shelves in front of the robot arm, with each shelf containing different medicines. Users can select a shelf through the serial monitor and move the robot arm's end effector to the chosen shelf. Once the shelf is selected, the robot arm will pick up the medicine from the shelf and place it in a known position.
 
-#**Updated Version**
+# Updated Version
 
 This code is for a medication storage control system that allows a user to select a shelf and retrieve medication from it using a robot arm controlled by an Arduino board. The system has a graphical user interface (GUI) created using the tkinter library in Python.
 
