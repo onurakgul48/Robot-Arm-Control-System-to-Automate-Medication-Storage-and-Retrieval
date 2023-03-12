@@ -2,6 +2,22 @@
 
 This project is designed to automate medication storage and retrieval using a 3 DOF robot arm controlled by an Arduino and Adafruit PWM servo drivers. The system includes 4 shelves in front of the robot arm, with each shelf containing different medicines. Users can select a shelf through the serial monitor and move the robot arm's end effector to the chosen shelf. Once the shelf is selected, the robot arm will pick up the medicine from the shelf and place it in a known position.
 
+#**Updated Version**
+
+This code is for a medication storage control system that allows a user to select a shelf and retrieve medication from it using a robot arm controlled by an Arduino board. The system has a graphical user interface (GUI) created using the tkinter library in Python.
+
+The code starts by importing necessary libraries including Wire.h and Adafruit_PWMServoDriver.h for controlling the servo motors. It defines constants for the servo motors, variables to store the current servo positions, and constants for servo calibration. The Adafruit_PWMServoDriver is then initialized and serial communication is started.
+
+The main loop of the program waits for input from the serial monitor. If the input is 'H', the robot arm is moved to its home position using the homePosition() function. If the input is a number from 1 to 4, the moveArmToShelf() function is called to move the arm to the selected shelf, and then the moveArmToCounter() function is called to move the arm to the counter position and drop the medication.
+
+The moveArmToShelf() function takes the selected shelf number as an argument and calculates the servo positions based on the shelf number. The moveArmToCounter() function takes the counter position as an argument, moves the arm to the counter position, opens the gripper to drop the medication, waits for the gripper to fully open and then closes the gripper. Finally, it returns the arm to its home position.
+
+The homePosition() function moves the arm to its home position by setting the servo positions to their initial values, mapping the servo positions to the calibrated range, and then moving the arm to the home position.
+
+The GUI is then created using tkinter library. It includes buttons for each shelf, a log text box to display retrieval logs, a status label to show the current status of the system, and a reset button to move the robot arm to its home position. When a user clicks on a shelf button, the on_click() function is called which sends the selected shelf number to the Arduino board to move the arm to that shelf and retrieve the medication.
+
+Overall, this code provides a complete solution for controlling a medication storage system using a robot arm and a GUI.
+
 # Installation
 To get started with this project, follow these steps:
 
