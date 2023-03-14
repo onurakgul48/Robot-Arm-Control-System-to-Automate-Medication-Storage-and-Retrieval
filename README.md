@@ -46,6 +46,17 @@ Once the robot arm is in position, it will automatically pick up the medicine fr
 
 To select a different shelf, repeat steps 3-5.
 
+# User Interface
+The user interface is designed to be user-friendly and intuitive. It allows users to easily control the robot arm and monitor its progress.
+We can choose the shelf from the GUI program.
+After selecting a shelf, the arm will pick up the medicine and place it on the counter.
+There is also a home position button when is clicked robot arm will move to the Home position always.
+
+The log will display messages such as "Retrieving medication from Shelf 1..." or "Robot arm moved to Home Position". These messages will be displayed in a text box on the GUI interface. The log will help the user keep track of the robot arm's actions and will provide a history of all medication retrieval events.
+
+![GUI](https://user-images.githubusercontent.com/74906633/225002398-dacc2e9a-3b78-4db2-9df7-15e39e80b0a7.PNG)
+
+
 # Contributing
 If you'd like to contribute to this project, feel free to submit a pull request with your changes or open an issue if you encounter any problems.
 
