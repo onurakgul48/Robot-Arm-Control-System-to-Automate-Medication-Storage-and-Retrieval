@@ -35,18 +35,14 @@ Upload the code to the Arduino board and connect it to the Adafruit PWM servo dr
 # Circuit Diagram
 ![image](https://user-images.githubusercontent.com/74906633/216340708-62e8fdd7-924e-4be8-88bb-8b7cc910a274.png)
 
-# Usaer Manual
-Power on the system and ensure that the Arduino board is connected to the computer via USB.
+# User Manual
 
-Open the Arduino IDE and navigate to the serial monitor.
+1. Upload the Arduino code to your Arduino board.
+2. Connect the Arduino board to your computer.
+3. Update the `COM_PORT` and `BAUD_RATE` in the Python script to match your Arduino board's settings.
+4. Run the Python script to launch the graphical user interface (GUI).
+5. Use the GUI to select a shelf and move the robot arm.
 
-Enter a number (1-4) to select a shelf for the robot arm to move to. Press enter.
-
-Wait for the robot arm to move to the selected shelf.
-
-Once the robot arm is in position, it will automatically pick up the medicine from the shelf and place it in a known position.
-
-To select a different shelf, repeat steps 3-5.
 
 # User Interface
 The user interface is designed to be user-friendly and intuitive. It allows users to easily control the robot arm and monitor its progress.
