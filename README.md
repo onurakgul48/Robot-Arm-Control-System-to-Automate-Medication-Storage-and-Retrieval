@@ -67,16 +67,12 @@ The log will display messages such as "Retrieving medication from Shelf 1..." or
 
 ![GUI](https://user-images.githubusercontent.com/74906633/225002398-dacc2e9a-3b78-4db2-9df7-15e39e80b0a7.PNG)
 
-
 # Contributing
-If you'd like to contribute to this project, feel free to submit a pull request with your changes or open an issue if you encounter any problems.
-
-# Next Step:
-Including HMI in this project in 3D envoriment.
+Contributions are welcome! Please feel free to submit a pull request.
 
 # License
-This project is licensed under Creative Commons.
+This project is licensed under the MIT License.
 
-
+Please modify this draft to better suit your project's needs.
 
 
