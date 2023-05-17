@@ -2,9 +2,10 @@
 
 This project is designed to automate medication storage and retrieval using a 3 DOF robot arm controlled by an Arduino and Adafruit PWM servo drivers. The system includes 4 shelves in front of the robot arm, with each shelf containing different medicines. Users can select a shelf through the serial monitor and move the robot arm's end effector to the chosen shelf. Once the shelf is selected, the robot arm will pick up the medicine from the shelf and place it to counter.
 
-![main](https://user-images.githubusercontent.com/74906633/225676263-bd911666-a0cc-48fe-b466-211224f74b41.jpg)
+![THumnail](https://github.com/onurakgul48/Robot-Arm-Control-System-to-Automate-Medication-Storage-and-Retrieval/assets/74906633/b47930ba-c36f-45f1-8c0f-1b6415e5aa28)
 
-# Updated Version
+
+# Overview
 
 This code is for a medication storage control system that allows a user to select a shelf and retrieve medication from it using a robot arm controlled by an Arduino board. The system has a graphical user interface (GUI) created using the tkinter library in Python.
 
@@ -20,7 +21,19 @@ The GUI is then created using tkinter library. It includes buttons for each shel
 
 Overall, this code provides a complete solution for controlling a medication storage system using a robot arm and a GUI.
 
+# Code Overview
+The Arduino code controls the movement of the robotic arm. It uses the Adafruit PWM Servo Driver library to control the servos. The arm's movement is based on commands received from the Python GUI over a serial connection.
+
+The Python GUI is built using Tkinter. It provides a user-friendly interface for interacting with the robotic arm. The user can select a shelf to retrieve medication from, and the GUI sends the appropriate command to the Arduino over a serial connection.
+
+Getting Started
+Requirements
+An Arduino board.
+Adafruit PWM Servo Driver.
+Python 3.x with Tkinter installed.
+A serial connection between the Arduino and the computer running the Python GUI.
 # Installation
+
 To get started with this project, follow these steps:
 
 Assemble the robot arm kit using screws and other necessary parts according to the application you would like to use.
