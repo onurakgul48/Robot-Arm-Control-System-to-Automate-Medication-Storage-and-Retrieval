@@ -1,3 +1,8 @@
+
+https://github.com/onurakgul48/Robot-Arm-Control-System-to-Automate-Medication-Storage-and-Retrieval/assets/74906633/d22ba59c-ed6f-41ac-9233-0548604409ca
+
+
+
 # Robot Arm Control System to Automate Medication Storage and Retrieval
 
 This project is designed to automate medication storage and retrieval using a 3 DOF robot arm controlled by an Arduino and Adafruit PWM servo drivers. The system includes 4 shelves in front of the robot arm, with each shelf containing different medicines. Users can select a shelf through the serial monitor and move the robot arm's end effector to the chosen shelf. Once the shelf is selected, the robot arm will pick up the medicine from the shelf and place it to counter.
